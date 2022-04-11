@@ -158,7 +158,7 @@
     height: 120px;
 } */
 
-.mainbutton {
+/* .mainbutton {
     margin-top: 30px;
     width: 200px;
     height: 50px;
@@ -174,7 +174,7 @@
     border-radius: 4px;
     border: none;
 
-}
+} */
 
 /* Особенности */
 
@@ -264,7 +264,7 @@
 
 /* Команда */
 
-.our__team {
+/* .our__team {
     background-color: #F5F4FA;
 }
 
@@ -297,11 +297,11 @@
     line-height: 1.19;
     color: var(--brandcolorone);
     text-align: center;
-}
+} */
 
 /* Сошиалс */
 
-.socials {
+/* .socials {
     display: flex;
     justify-content: space-between;
     padding: 16px 32px 30px 32px;
@@ -339,11 +339,11 @@
 
 ._color-change {
     background-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
 /* Секция иконок */
 
-.client__list {
+/* .client__list {
     display: flex;
     justify-content: space-between;
 }
@@ -362,19 +362,19 @@
 .client__icon {
     padding: 16px 32px;
     fill: rgba(175, 177, 184, 1);
-}
+} */
 
-.client__item:hover .client__icon {
+/* .client__item:hover .client__icon {
     fill: var(--brandcolortwo);
 }
 
 .client__item:hover {
     border-color: var(--brandcolortwo);
-}
+} */
 
 /* Футер */
 
-.footer {
+/* .footer {
     padding: 60px 60px;
     background-color: #2F303A;
 }
@@ -430,11 +430,11 @@
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
     margin-bottom: 20px;
-}
+} */
 
 /* Email */
 
-.subscribe-box {
+/* .subscribe-box {
     width: 570px;
     position: relative;
     margin-left: 93px;
@@ -477,7 +477,7 @@
 }
 .subscribe-input:focus-within {
     outline: 2px solid var(--brandcolortwo);
-}
+} */
 
 .subscribe-btn {
     position: absolute;
@@ -508,11 +508,11 @@
 /* Кнопки */
 
 
-.portfolio__filter {
+/* .portfolio__filter {
     display: flex;
     margin-bottom: 50px;
     justify-content: center;
-}
+} */
 
 .portfolio__filter button {
     padding: 6px 22px;
@@ -527,9 +527,9 @@
     border: none;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio__filter-item:not(:last-child) {
+/* .portfolio__filter-item:not(:last-child) {
     margin-right: 8px;
-}
+} */
 
 .portfolio__filter button:hover,
 .portfolio__filter button:focus {
@@ -542,32 +542,32 @@
 /* Картинки */
 
 
-.portfolio__list {
+/* .portfolio__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
+} */
 
-.portfolio__item {
+/* .portfolio__item {
     margin-bottom: 30px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.portfolio__item:hover {
+/* .portfolio__item:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portfolio__item-box {
     position: relative;
     overflow: hidden;
     height: 294px;
-}
-.portfolio__item:hover 
+} */
+/* .portfolio__item:hover 
 .portfolio__image-box {
     top: 0;
     transform: translateY(0%);
-}
+} */
 
-.portfolio__image-box {
+/* .portfolio__image-box {
     display: flex;
     align-items: center;
     position: absolute;
@@ -578,9 +578,9 @@
     color: var(--brandColor);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background: linear-gradient(rgba(33, 150, 243, 0.9), rgba(33, 150, 243, 0.9));
-}
+} */
 
-.portfolio__image-text {
+/* .portfolio__image-text {
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -606,13 +606,13 @@
     font-size: 16px;
     line-height: 1.87;
     color: var(--brandcolorone);
-}
+} */
 
 
 
 /* Бекдроп */
 
-.backdrop.is-hidden {
+/* .backdrop.is-hidden {
     display: none;
     visibility: hidden;
     opacity: 0;
@@ -632,10 +632,10 @@
     visibility: visible;
 
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
-}
+} */
 
 /* Модальное окно */
-
+/* 
 .modal {
     position: relative;
     opacity: 1;
@@ -655,11 +655,11 @@
     100% {
         transform: scale(1);
     }
-}
+} */
 
 /* Модальное окною. Форма */
 
-.form__container {
+/* .form__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -670,11 +670,11 @@
     display: flex;
     flex-direction: column;
     max-width: 450px;
-}
+} */
 
 /* Формы заполнения */
 
-.modal__form-title {
+/* .modal__form-title {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -688,9 +688,9 @@
     position: relative;
     height: 42px;
     cursor: pointer;
-}
+} */
 
-.modal__input-item {
+/* .modal__input-item {
     position: absolute;
     margin: 14px 15px;
     left: 0;
@@ -711,9 +711,9 @@
     color: var(--brandcolorone);
     margin-bottom: 4px;
     margin-top: 10px;
-}
+} */
 
-.modal__form-input {
+/* .modal__form-input {
     border: none;
     padding-left: 42px;
     height: 40px;
@@ -723,9 +723,9 @@
     cursor: pointer;
     border-radius: 4px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.modal__form-input:focus-visible {
+/* .modal__form-input:focus-visible {
     outline: 2px solid var(--brandcolortwo);
 }
 
@@ -733,12 +733,12 @@
 .modal__input-item >
 .modal__input-icon {
     fill: var(--brandcolortwo);
-}
+} */
 
 
 /* Коментарии */
 
-.modal__form-textarea {
+/* .modal__form-textarea {
     height: 120px;
     padding: 12px 16px;
 }
@@ -748,11 +748,11 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-}
+} */
 
 /* Чекбокс */
 
-.form__checkbox-label {
+/* .form__checkbox-label {
     position: relative;
     align-self: center;
     font-weight: 400;
@@ -798,9 +798,9 @@
     top: -1px;
     left: -1px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.form__checkbox-input:checked ~
+/* .form__checkbox-input:checked ~
 .form__checkbox-checkmark {
     background-color: var(--brandcolortwo);
     border: 3px solid var(--brandcolortwo);
@@ -810,7 +810,7 @@
 .form__checkbox-checkmark >
 .form__checkbox-icon {
     fill: var(--brandColor);
-}
+} */
 
 /* Кнопка */
 
@@ -840,7 +840,7 @@
 
 /* Закрытие модального окна */
 
-.modal__close {
+/* .modal__close {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -879,4 +879,4 @@
 .modal__close:hover::after,
 .modal__close:hover::before {
     background-color: var(--brandcolortwo);
-}
+} */

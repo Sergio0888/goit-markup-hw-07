@@ -11,7 +11,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./scss/main.css">
 </head>
 
 <body>
@@ -22,10 +23,10 @@
         <div class="container header__container">
             <nav class="header__nav">
                 <a href="./index.html" class="logo">
-                    Web<span class="logo__color-black">Studio</span></a>
+                    <span class="logo__colored">Web</span>Studio</a>
                 <ul class="header__menu">
                     <li class="header__menu-item"><a class="header__menu-link" href="./index.html">Студия</a></li>
-                    <li class="header__menu-item"><a class="header__menu-link _active" href="./portfolio.html">Портфолио</a></li>
+                    <li class="header__menu-item active"><a class="header__menu-link header__menu-link-color" href="./portfolio.html">Портфолио</a></li>
                     <li class="header__menu-item"><a class="header__menu-link" href="">Контакты</a></li>
                 </ul>
             </nav>
@@ -51,19 +52,19 @@
                 <h1 class="hidden">Портфолио</h1>
                 <ul class="portfolio__filter">
                     <li class="portfolio__filter-item">
-                        <button type="button">Все</button>
+                        <button class="btn portfolio__btn" type="button">Все</button>
                     </li>
                     <li class="portfolio__filter-item">
-                        <button type="button">Веб-сайты</button>
+                        <button class="btn portfolio__btn" type="button">Веб-сайты</button>
                     </li>
                     <li class="portfolio__filter-item">
-                        <button type="button">Приложения</button>
+                        <button class="btn portfolio__btn" type="button">Приложения</button>
                     </li>
                     <li class="portfolio__filter-item">
-                        <button type="button">Дизайн</button>
+                        <button class="btn portfolio__btn" type="button">Дизайн</button>
                     </li>
                     <li class="portfolio__filter-item">
-                        <button type="button">Маркетинг</button>
+                        <button class="btn portfolio__btn" type="button">Маркетинг</button>
                     </li>
                 </ul>
                 <div class="container">
@@ -196,7 +197,7 @@
     <footer class="footer">
         <div class="footer__container container">
             <div>
-                <a href="./index.html" class="logo">Web<span class="logo__color-white">Studio</span></a>
+                <a href="./index.html" class="logo logo_c-white"><span class="logo__colored">Web</span>Studio</a>
                 <address>
                     <ul class="footer__contact-list">
                         <li class="footer__contact-item">
@@ -251,7 +252,7 @@
                 <label for="subscribe-input"></label>
                 <input class="subscribe-input" name="subscribe-input" id="subscribe-input" type="email" placeholder="E-mail">
 
-                <button class="subscribe-btn" type="submit">Подписаться
+                <button class="btn footer__btn" type="submit">Подписаться
                     <span class="subscribe-btn-box">
                         <svg class="subscribe-btn-icon">
                             <use href="./images/icons/icon-telegram.svg#icon-telegram"></use>

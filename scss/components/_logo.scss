@@ -3,10 +3,10 @@
     font-weight: bold;
     font-size: 26px;
     line-height: 1.20;
-    color: $main-color;
+    color: $main-text-color;
 
     &__colored {
-        color: $main-text-color;
+        color: $main-color;
     }
     &_c-white {
         color: $second-text-color;
