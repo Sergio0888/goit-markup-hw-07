@@ -125,39 +125,6 @@ a {
   background-color: #188CE8;
 }
 
-.footer__btn {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  right: 0;
-}
-
-.portfolio__btn {
-  width: 100%;
-  height: 100%;
-  font-weight: 500;
-  letter-spacing: 0.03em;
-  padding: 6px 22px;
-  color: #212121;
-  background-color: #F5F4FA;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-}
-
-.portfolio__btn:hover, .portfolio__btn:focus {
-  color: #FFFFFF;
-  background-color: #2196F3;
-  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-
 .backdrop.is-hidden {
   display: none;
   visibility: hidden;
@@ -738,11 +705,11 @@ a {
   color: #FFFFFF;
 }
 
-.our__team {
+.our-team {
   background-color: #F5F4FA;
 }
 
-.our__team-list {
+.our-team-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -752,18 +719,18 @@ a {
   width: 1170px;
 }
 
-.our__team-item {
+.our-team-item {
   background-color: #FFFFFF;
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.our__team-box {
+.our-team-box {
   padding: 30px 60px 0 60px;
 }
 
-.our__team-name {
+.our-team-name {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -771,7 +738,7 @@ a {
   margin-bottom: 10px;
 }
 
-.our__team-post {
+.our-team-post {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -828,6 +795,25 @@ a {
 
 .portfolio__filter-item:not(:last-child) {
   margin-right: 8px;
+}
+
+.portfolio__btn {
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: 6px 22px;
+  color: #212121;
+  background-color: #F5F4FA;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.portfolio__btn:hover, .portfolio__btn:focus {
+  color: #FFFFFF;
+  background-color: #2196F3;
+  -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio__list {
@@ -977,6 +963,20 @@ a {
   font-weight: 700;
   color: white;
   margin-bottom: 20px;
+}
+
+.footer__btn {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  right: 0;
 }
 
 .subscribe-box {

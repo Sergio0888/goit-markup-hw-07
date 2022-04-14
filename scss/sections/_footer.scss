@@ -55,6 +55,14 @@
     }
 }
 
+.footer__btn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+}
+
 .subscribe-box {
     width: 570px;
     position: relative;
